@@ -6,14 +6,17 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+	ruby 2.2
 * System dependencies
+	Rails 4.2
 
 * Configuration
 
 * Database creation
-
+	not required
 * Database initialization
+	mongodump -d mangodb_rails_example_development -o /home/kannan
+	mongorestore <our database name>
 
 * How to run the test suite
 
