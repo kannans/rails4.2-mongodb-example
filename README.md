@@ -3,14 +3,14 @@ Mongodb with Rails 4.2.1 simple setup
 # Things you may want to cover:
 
 * Ruby version
-	ruby 2.2
+  * ruby 2.2
 * System dependencies
-	Rails 4.2
+  * Rails 4.2.1
 
 * Configuration
-
+  * Install Mongodb in systems
 * Database creation
-	not required
+  * Not required
 * Database initialization
-	mongodump -d mangodb_rails_example_development -o /home/kannan
-	mongorestore <our database name>
+  * mongodump -d mangodb_rails_example_development -o /home/kannan
+  * mongorestore mangodb_rails_example_development
